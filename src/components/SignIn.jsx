@@ -13,7 +13,6 @@ function SignIn() {
 
   const login = (e) => {
     e.preventDefault();
-    console.log("HV");
     Axios.post('http://localhost:3001/login',
       {
         email: emailLog,

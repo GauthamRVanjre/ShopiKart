@@ -22,7 +22,7 @@ function SignUp() {
           password: passwordReg,
           cpassword: cPasswordReg
         }).then((response) => {
-          console.log(response);
+          // console.log(response);
           if (response.data.message) {
             setRegisterStatus(response.data.message);
           }

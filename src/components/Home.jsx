@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Home() {
     return (
         <div>
-            <h2>Profile Details</h2>
+            <center><h2>Home Page</h2></center>
         </div>
     );
 }
